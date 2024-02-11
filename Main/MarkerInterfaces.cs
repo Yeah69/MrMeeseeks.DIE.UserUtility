@@ -26,7 +26,9 @@ public interface ITaskInitializer
 {
     Task InitializeAsync();
 }
+#if NETSTANDARD2_1
 public interface IValueTaskInitializer
 {
     ValueTask InitializeAsync();
 }
+#endif

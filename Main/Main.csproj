@@ -1,13 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
         <RootNamespace>MrMeeseeks.DIE.UserUtility</RootNamespace>
         <AssemblyName>MrMeeseeks.DIE.UserUtility</AssemblyName>
         <PackageId>$(AssemblyName)</PackageId>
         <Product>$(AssemblyName)</Product>
         
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        
+        <LangVersion>12</LangVersion>
+        
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
